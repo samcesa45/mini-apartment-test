@@ -7,7 +7,7 @@ import React from 'react';
 export default function TowersList() {
   return (
     <div className="max-w-7xl mx-auto">
-      <div className="p-6 grid grid-cols-1 md:grid-cols-3 gap-6 pt-14 mt-14">
+      <div className="p-6 grid grid-cols-1 md:grid-cols-3 gap-8 pt-14 mt-14 px-4">
         {towers.map((tower) => (
           <Link key={tower.id} href={`/towers/${tower.id}`}>
             <motion.div
